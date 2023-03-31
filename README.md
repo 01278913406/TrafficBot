@@ -1,5 +1,3 @@
-## VENENO TRAFFIC BOT (With a simple rotating Tor Proxy Server)
-This script generates traffic for websites using a Tor Proxy Pool or any proxy server for which you desire
 
 ## Prerequisites
 
@@ -174,20 +172,3 @@ Crontab at every minute
 ```bash
 * * * * * xvfb-run --auto-servernum --server-num=1 --server-args="-screen 0 1024x768x24" node --harmony /var/www/trafficbot/index.js --url https://ppplayer.com --windows 1 --time 3 
 ```
-
-Further readings
-----------------
- * [NodeJS](https://nodejs.org/en/)
- * [Nightmare](https://github.com/segmentio/nightmare)
- * [Alpine Tor](https://github.com/zet4/alpine-tor)
- * [Tor Manual](https://www.torproject.org/docs/tor-manual.html.en)
- * [Tor Control](https://www.thesprawl.org/research/tor-control-protocol/)
- * [HAProxy Manual](http://cbonte.github.io/haproxy-dconv/index.html)
- * [Privoxy Manual](https://www.privoxy.org/user-manual/)
-
-License
------
-
-Veneno Traffic Bot is an open source project released under the permissive MIT license.
-
-Veneno Traffic Bot is standing on the shoulders of giants. Building something like Veneno Traffic Bot probably wouldn't be possible if not for the excellent open source projects that it builds on top of. In particular, it uses Nightmare for its fast architecture.
