@@ -136,7 +136,7 @@ const venenoTrafficBot = async id => {
 		.scrollTo(randomNumber(700,900),randomNumber(10,1200))
         .wait(randomTimeFromInterval(5, 15))
 		.scrollTo(randomNumber(100,1200),randomNumber(10,1200))
-        .wait(randomTimeFromInterval(50, 150))
+        .wait(randomTimeFromInterval(5, 15))
 		.scrollTo(randomNumber(1300,1600),randomNumber(10,1200))
         .wait(randomTimeFromInterval(5, 15))
         .scrollTo(randomNumber(1700,3000), randomNumber(10,1200))
@@ -170,7 +170,7 @@ const venenoTrafficBot = async id => {
         .scrollTo(randomNumber(1700,3000), randomNumber(10,1200))
 		.wait(randomTimeFromInterval(5, 15))
         .scrollTo(randomNumber(3300,6000), randomNumber(10,1200))
-		.wait(randomTimeFromInterval(50, 150))
+		.wait(randomTimeFromInterval(5, 15))
         .scrollTo(randomNumber(6300,9000), randomNumber(10,1200))
 		// .wait(randomTimeFromInterval(50, 150))
 		.evaluate((blacklist,url) => {
@@ -181,7 +181,7 @@ const venenoTrafficBot = async id => {
 				allLinksB = allLinksB.filter(e => e !== blacklist[indexB]); 	
 				// console.log(blacklist[indexB]);
 			}
-			allLinksB = allLinksB.filter(e => e === url);
+			//allLinksB = allLinksB.filter(e => e === url);
 			randomUrlB = allLinksB[Math.floor(Math.random() * allLinksB.length)];
 			//console.log(randomUrlB);
 			document.location.href = randomUrlB;
@@ -192,7 +192,7 @@ const venenoTrafficBot = async id => {
 		.scrollTo(randomNumber(700,900),randomNumber(10,1200))
         .wait(randomTimeFromInterval(5, 15))
 		.scrollTo(randomNumber(100,1200),randomNumber(10,1200))
-        .wait(randomTimeFromInterval(50, 150))
+        .wait(randomTimeFromInterval(5, 15))
 		.scrollTo(randomNumber(1300,1600),randomNumber(10,1200))
         .wait(randomTimeFromInterval(5, 15))
         .scrollTo(randomNumber(1700,3000), randomNumber(10,1200))
@@ -208,7 +208,7 @@ const venenoTrafficBot = async id => {
 			for (indexC = 0; indexC <= blacklist.length; ++indexC) {
 				allLinksC = allLinksC.filter(e => e !== blacklist[indexC]); 
 			}
-			allLinksC = allLinksC.filter(e => e === url);
+			//allLinksC = allLinksC.filter(e => e === url);
 			randomUrlC = allLinksC[Math.floor(Math.random() * allLinksC.length)];
 			//console.log(randomUrlC);
 			document.location.href = randomUrlC;
@@ -223,7 +223,7 @@ const venenoTrafficBot = async id => {
 		.scrollTo(randomNumber(1300,1600),randomNumber(10,1200))
         .wait(randomTimeFromInterval(5, 15))
         .scrollTo(randomNumber(1700,3000), randomNumber(10,1200))
-		.wait(randomTimeFromInterval(50, 150))
+		.wait(randomTimeFromInterval(5, 15))
         .scrollTo(randomNumber(3300,6000), randomNumber(10,1200))
 		.wait(randomTimeFromInterval(5, 15))
         .scrollTo(randomNumber(6300,9000), randomNumber(10,1200))
@@ -236,7 +236,7 @@ const venenoTrafficBot = async id => {
 				allLinksD = allLinksD.filter(e => e !== blacklist[indexD]); 
 			}
 
-			allLinksD = allLinksD.filter(e => e === url);
+			//allLinksD = allLinksD.filter(e => e === url);
 			randomUrlD = allLinksD[Math.floor(Math.random() * allLinksD.length)];
 			//console.log(randomUrlD);
 			document.location.href = randomUrlD;
@@ -245,7 +245,7 @@ const venenoTrafficBot = async id => {
 		 .scrollTo(randomNumber(100,600),randomNumber(10,1200))
         .wait(randomTimeFromInterval(5, 15))
 		.scrollTo(randomNumber(700,900),randomNumber(10,1200))
-        .wait(randomTimeFromInterval(50, 150))
+        .wait(randomTimeFromInterval(5, 15))
 		.scrollTo(randomNumber(100,1200),randomNumber(10,1200))
         .wait(randomTimeFromInterval(5, 15))
 		.scrollTo(randomNumber(1300,1600),randomNumber(10,1200))
@@ -263,7 +263,7 @@ const venenoTrafficBot = async id => {
 			for (indexE = 0; indexE <= blacklist.length; ++indexE) {
 				allLinksE = allLinksE.filter(e => e !== blacklist[indexE]); 
 			}
-			allLinksE = allLinksE.filter(e => e === url);
+			//allLinksE = allLinksE.filter(e => e === url);
 			randomUrlE = allLinksE[Math.floor(Math.random() * allLinksE.length)];
 			//console.log(randomUrlE);
 			document.location.href = randomUrlE;
@@ -274,7 +274,7 @@ const venenoTrafficBot = async id => {
 		.scrollTo(randomNumber(700,900),randomNumber(10,1200))
         .wait(randomTimeFromInterval(5, 15))
 		.scrollTo(randomNumber(100,1200),randomNumber(10,1200))
-        .wait(randomTimeFromInterval(50, 150))
+        .wait(randomTimeFromInterval(5, 15))
 		.scrollTo(randomNumber(1300,1600),randomNumber(10,1200))
         .wait(randomTimeFromInterval(5, 15))
         .scrollTo(randomNumber(1700,3000), randomNumber(10,1200))
@@ -290,7 +290,7 @@ const venenoTrafficBot = async id => {
 			for (indexE = 0; indexE <= blacklist.length; ++indexE) {
 				allLinksE = allLinksE.filter(e => e !== blacklist[indexE]); 
 			}
-			allLinksE = allLinksE.filter(e => e === url);
+			//allLinksE = allLinksE.filter(e => e === url);
 			randomUrlE = allLinksE[Math.floor(Math.random() * allLinksE.length)];
 			//console.log(randomUrlE);
 			document.location.href = randomUrlE;
@@ -303,7 +303,7 @@ const venenoTrafficBot = async id => {
 		.scrollTo(randomNumber(100,1200),randomNumber(10,1200))
         .wait(randomTimeFromInterval(5, 15))
 		.scrollTo(randomNumber(1300,1600),randomNumber(10,1200))
-        .wait(randomTimeFromInterval(50, 150))
+        .wait(randomTimeFromInterval(5, 15))
         .scrollTo(randomNumber(1700,3000), randomNumber(10,1200))
 		.wait(randomTimeFromInterval(5, 15))
         .scrollTo(randomNumber(3300,6000), randomNumber(10,1200))
